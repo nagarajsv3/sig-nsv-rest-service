@@ -13,7 +13,33 @@
 @AllArgsConstructor
 3. maven spring-boot:run
 
-****Hibernate Validator Validations****
+***********Spring Data JPA & H2***********
+1. Add below dependencies in pom.xml
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <!--h2 database for development purpose-->
+        <!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+2. Add below properties in application.properties
+# H2
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2
+# Datasource
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.username=sa
+spring.datasource.password=
+spring.datasource.driver-class-name=org.h2.Driver
+
+3. Create Entity Class, Repository Interface
+
+***********Hibernate Validator Validations***********
 Gives 400 Bad Request By default
 
 Validation Using Hibernate Validator
