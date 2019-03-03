@@ -20,6 +20,9 @@ public class PersonController {
     @RequestMapping(value="/person/create",method = RequestMethod.POST , consumes= "application/json", produces = "application/json")
     private Person createPerson(@Valid @RequestBody Person person){
         log.info("creating person {}",person.toString());
+        if(person.getName().equalsIgnoreCase("jsmbaba")){
+            throw new IllegalArgumentException("Hey God, this table is for Person!!!");
+        }
         return personService.createPerson(person);
     }
 

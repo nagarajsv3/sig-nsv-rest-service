@@ -59,3 +59,7 @@ import javax.validation.constraints.Size;
    with 1 error(s): [Field error in object 'person' on field 'age': rejected value [1]; codes
    [Min.person.age,Min.age,Min.int,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable:
    codes [person.age,age]; arguments []; default message [age],18]; default message [must be greater than or equal to 18]] ]
+
+********Custom Exception Handler********
+Create a ControllerAdvice for the Controller
+Throw exception in the Controller. ControllerAdvice catches and responds to request
