@@ -6,10 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bookstore" />
+        <module name="gs-async-method" />
+        <module name="gs-batch-processing" />
+        <module name="gs-spring-boot-docker" />
+        <module name="reading" />
+        <module name="sig-nsv-accessing-vault" />
+        <module name="sig-nsv-async-method" />
         <module name="sig-nsv-rest-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bookstore" target="1.8" />
+      <module name="gs-async-method" target="1.8" />
+      <module name="gs-batch-processing" target="1.8" />
+      <module name="gs-circuit-breaker" target="1.5" />
+      <module name="gs-spring-boot-docker" target="1.8" />
+      <module name="reading" target="1.8" />
+      <module name="sig-nsv-accessing-vault" target="1.8" />
+      <module name="sig-nsv-async-method" target="1.8" />
       <module name="sig-nsv-rest-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>

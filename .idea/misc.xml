@@ -4,6 +4,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../sig-nsv-async-method/pom.xml" />
+        <option value="$PROJECT_DIR$/../sig-nsv-circuit-breaker/pom.xml" />
+        <option value="$PROJECT_DIR$/../sig-nsv-springboot-docker/pom.xml" />
+        <option value="$PROJECT_DIR$/../sig-nsv-batch-processing/pom.xml" />
+        <option value="$PROJECT_DIR$/../sig-nsv-accessing-vault/pom.xml" />
       </list>
     </option>
   </component>

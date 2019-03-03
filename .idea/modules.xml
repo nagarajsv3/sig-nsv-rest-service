@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../sig-nsv-circuit-breaker/bookstore/bookstore.iml" filepath="$PROJECT_DIR$/../sig-nsv-circuit-breaker/bookstore/bookstore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sig-nsv-batch-processing/gs-batch-processing.iml" filepath="$PROJECT_DIR$/../sig-nsv-batch-processing/gs-batch-processing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sig-nsv-circuit-breaker/gs-circuit-breaker.iml" filepath="$PROJECT_DIR$/../sig-nsv-circuit-breaker/gs-circuit-breaker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sig-nsv-springboot-docker/gs-spring-boot-docker.iml" filepath="$PROJECT_DIR$/../sig-nsv-springboot-docker/gs-spring-boot-docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sig-nsv-circuit-breaker/reading/reading.iml" filepath="$PROJECT_DIR$/../sig-nsv-circuit-breaker/reading/reading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sig-nsv-accessing-vault/sig-nsv-accessing-vault.iml" filepath="$PROJECT_DIR$/sig-nsv-accessing-vault/sig-nsv-accessing-vault.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sig-nsv-async-method/sig-nsv-async-method.iml" filepath="$PROJECT_DIR$/../sig-nsv-async-method/sig-nsv-async-method.iml" />
       <module fileurl="file://$PROJECT_DIR$/sig-nsv-rest-service.iml" filepath="$PROJECT_DIR$/sig-nsv-rest-service.iml" />
     </modules>
   </component>
