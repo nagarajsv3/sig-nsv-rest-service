@@ -22,13 +22,13 @@ public class Person {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
-    @NotNull
-    @Size(min=3, max=8)
+    @NotNull(message = "Custom message-Please Enter Your Name. It cant be null")
+    @Size(min=3, max=8, message = "Custom message-Please Enter Your Name >2 & <8")
     @Column(name="name")
     private String name;
 
     @NotNull
-    @Min(18)
+    @Min(value = 18,message = "Custom message-Please Input Your Age > 18 ")
     @Column(name="age")
     private int age;
 }

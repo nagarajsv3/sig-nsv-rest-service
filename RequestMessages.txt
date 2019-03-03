@@ -1,0 +1,12 @@
+1. Create Person
+POST : http://localhost:8090/person/create
+{
+	"name":"Virat",
+	"age":1
+}
+
+2. Read Person By ID (PathVariable)
+GET : http://localhost:8090/person/get/2
+
+3. Read Person using QueryParam
+GET : http://localhost:8090/person/get?id=1
