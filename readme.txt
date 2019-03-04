@@ -74,3 +74,32 @@ are not matching, you need to use @JsonProperty annotation to specify the exact 
 3. Jackson JSON processing library is in the classpath, RestTemplate will use it (via a message converter)
 to convert the incoming JSON data into a Quote object
 4. standard system properties http.proxyHost and http.proxyPort to values appropriate for your environment if you are behind corporate proxy
+5. applicationContext.getBeanDefinitionNames() gives all the bean names provided by spring boot.
+
+********Spring Boot Testing***********
+1. Refer GreetingControllerTest
+The MockMvc comes from Spring Test and allows you, via a set of convenient builder classes,
+to send HTTP requests into the DispatcherServlet and make assertions about the result.
+Note the use of the @AutoConfigureMockMvc together with @SpringBootTest to inject a MockMvc instance.
+Having used @SpringBootTest we are asking for the whole application context to be created.
+
+********Spring Boot Integrated Testing***********
+1. Refer GreetingControllerITTest
+2. The embedded server is started up on a random port by virtue of the
+ webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT
+ and the actual port is discovered at runtime with the @LocalServerPort
+
+1. Build & Run the spring boot app using maven command prompt
+mvn package && java -jar target/sig-nsv-rest-service-0.0.1-SNAPSHOT.jar
+
+*********Spring Boot Actuator*********
+1. spring-boot-starter-actuator provides actuator/health, actuator/info, actuator.
+2. There is also a /actuator/shutdown endpoint, but it’s only visible by default via JMX.
+To enable it as an HTTP endpoint, add management.endpoints.shutdown.enabled=true to your application.properties file.
+3. Spring Boot Actuator defaults to run on port 8080. By adding an application.properties file, you can override that setting.
+server.port: 8090
+management.server.port: 9001
+management.server.address: 127.0.0.1
+
+Refer GreetingControllerManagementITTest for test
+

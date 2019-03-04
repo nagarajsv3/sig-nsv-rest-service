@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c0c31b7-93e5-4b67-8cbf-3c18d6d1e881" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
       <change beforePath="$PROJECT_DIR$/sig-nsv-rest-service.iml" afterPath="$PROJECT_DIR$/sig-nsv-rest-service.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/controller/PersonController.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/controller/PersonController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/controller/GreetingController.java" afterPath="$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/controller/GreetingController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,18 +34,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/RestApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="54">
+              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,52 +63,85 @@
             <state relative-caret-position="76">
               <caret line="192" column="24" lean-forward="false" selection-start-line="192" selection-start-column="24" selection-end-line="192" selection-end-column="24" />
               <folding>
-                <element signature="e#13192#13193#0" expanded="true" />
-                <element signature="e#13245#13246#0" expanded="true" />
+                <marker date="1551558740731" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1551558740731" expanded="false" signature="159:1386" ph="..." />
+                <marker date="1551558740731" expanded="true" signature="2202:2778" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="3267:3802" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="3886:4172" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="4229:4515" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="4609:4782" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="4898:5313" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="5417:5600" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="5726:6130" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="6190:6550" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="6642:6795" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="6896:7301" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="7403:7566" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="7687:8076" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="8182:8381" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="8300:8373" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="8499:8815" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="8922:9300" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="9391:9760" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="9841:10198" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="10284:10605" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="10701:10886" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="11001:11428" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="11534:11729" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="11842:12240" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="12311:12705" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="12770:13158" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="13191:13202" ph=" { " />
+                <marker date="1551558740731" expanded="true" signature="13240:13246" ph=" }" />
+                <marker date="1551558740731" expanded="true" signature="13320:13419" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="13485:14634" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="14704:15570" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="15682:16369" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="16431:17068" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="17124:17300" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="17379:17559" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="17572:17969" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="18095:18237" ph="{...}" />
+                <marker date="1551558740731" expanded="false" signature="18163:18178" ph=" { " />
+                <marker date="1551558740731" expanded="false" signature="18221:18231" ph=" }" />
+                <marker date="1551558740731" expanded="true" signature="18360:18490" ph="{...}" />
+                <marker date="1551558740731" expanded="false" signature="18422:18437" ph=" { " />
+                <marker date="1551558740731" expanded="false" signature="18474:18484" ph=" }" />
+                <marker date="1551558740731" expanded="true" signature="18614:19490" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="18765:18854" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="18920:19036" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="19106:19484" ph="{...}" />
+                <marker date="1551558740731" expanded="true" signature="19539:19601" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quote.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/domain/Quote.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Value.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/domain/Value.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="75" column="140" lean-forward="false" selection-start-line="75" selection-start-column="140" selection-end-line="75" selection-end-column="140" />
+            <state relative-caret-position="160">
+              <caret line="99" column="17" lean-forward="false" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuoteRestTemplateApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/app/QuoteRestTemplateApp.java">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GreetingControllerITTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/nsv/jsmbaba/controller/GreetingControllerITTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,12 +149,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntegrationApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../sig-nsv-spring-integration/src/main/java/hello/IntegrationApplication.java">
+      <file leaf-file-name="GreetingController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/controller/GreetingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-              <folding />
+            <state relative-caret-position="105">
+              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding>
+                <element signature="e#589#590#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GreetingControllerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/nsv/jsmbaba/controller/GreetingControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GreetingControllerManagementITTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/nsv/jsmbaba/controller/GreetingControllerManagementITTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1273#1302#1" expanded="true" />
+                <element signature="e#1636#1665#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringBootDemoApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/SpringBootDemoApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,6 +222,7 @@
       <find>cloud</find>
       <find>spring.h2.console.enabled</find>
       <find>data</find>
+      <find>Mock</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,12 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/controller/GreetingController.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/GitCommands" />
-        <option value="$PROJECT_DIR$/../sig-nsv-async-method/pom.xml" />
-        <option value="$PROJECT_DIR$/../sig-nsv-async-method/src/main/java/com/nsv/model/User.java" />
-        <option value="$PROJECT_DIR$/../sig-nsv-async-method/src/main/java/com/nsv/service/GitHubLookupService.java" />
         <option value="$PROJECT_DIR$/../sig-nsv-async-method/src/main/java/com/nsv/runner/AppRunner.java" />
         <option value="$PROJECT_DIR$/../sig-nsv-async-method/src/main/java/com/nsv/App.java" />
         <option value="$PROJECT_DIR$/../sig-nsv-circuit-breaker/pom.xml" />
@@ -208,7 +265,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/service/PersonService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/RestApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/repository/PersonRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/RequestMessages.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/domain/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/domain/ErrorResponse.java" />
@@ -218,12 +274,19 @@
         <option value="$PROJECT_DIR$/../sig-nsv-spring-integration/pom.xml" />
         <option value="$PROJECT_DIR$/../sig-nsv-spring-integration/src/main/java/IntegrationApplication.java" />
         <option value="$PROJECT_DIR$/../sig-nsv-spring-integration/src/main/resources/hello/integration.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/domain/Quote.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/app/QuoteRestTemplateApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/domain/Value.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/RestTemplateApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/SpringBootDemoApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/controller/GreetingController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nsv/jsmbaba/controller/GreetingControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nsv/jsmbaba/controller/GreetingControllerITTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nsv/jsmbaba/controller/GreetinControllerManagementITItest.java" />
         <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/com/nsv/jsmbaba/controller/GreetingControllerManagementITTest.java" />
       </list>
     </option>
   </component>
@@ -284,15 +347,28 @@
               <item name="sig-nsv-rest-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sig-nsv-rest-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sig-nsv-rest-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sig-nsv-rest-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sig-nsv-rest-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sig-nsv-rest-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="sig-nsv-rest-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jsmbaba" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sig-nsv-rest-service" type="b2602c69:ProjectViewProjectNode" />
@@ -382,7 +458,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RestTemplateApp">
+  <component name="RunManager" selected="Spring Boot.SpringBootDemoApp">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -650,17 +726,6 @@
       <module name="sig-nsv-accessing-vault" />
       <envs />
     </configuration>
-    <configuration name="BookstoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="hello.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.BookstoreApplication" />
-      <module name="bookstore" />
-      <envs />
-    </configuration>
     <configuration name="RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nsv.jsmbaba.RestApplication" />
@@ -679,6 +744,17 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nsv.jsmbaba.RestTemplateApp" />
+      <module name="sig-nsv-rest-service" />
+      <envs />
+    </configuration>
+    <configuration name="SpringBootDemoApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.nsv.jsmbaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nsv.jsmbaba.SpringBootDemoApp" />
       <module name="sig-nsv-rest-service" />
       <envs />
     </configuration>
@@ -749,19 +825,19 @@
       <item index="4" class="java.lang.String" itemvalue="Maven.clean install sig-nsv-rest-service" />
       <item index="5" class="java.lang.String" itemvalue="Maven.build sig-nsv-rest-service" />
       <item index="6" class="java.lang.String" itemvalue="Spring Boot.RestApplication" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.BookstoreApplication" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.VaultConfigApp" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.VaultConfigApp-cloud-profile" />
-      <item index="10" class="java.lang.String" itemvalue="Application.QuoteRestTemplateApp" />
-      <item index="11" class="java.lang.String" itemvalue="Spring Boot.RestTemplateApp" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.VaultConfigApp" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.VaultConfigApp-cloud-profile" />
+      <item index="9" class="java.lang.String" itemvalue="Application.QuoteRestTemplateApp" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.RestTemplateApp" />
+      <item index="11" class="java.lang.String" itemvalue="Spring Boot.SpringBootDemoApp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.RestTemplateApp" />
-        <item index="1" class="java.lang.String" itemvalue="Application.QuoteRestTemplateApp" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.VaultConfigApp-cloud-profile" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.VaultConfigApp" />
-        <item index="4" class="java.lang.String" itemvalue="Spring Boot.AccessingVaultApp" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.SpringBootDemoApp" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.RestTemplateApp" />
+        <item index="2" class="java.lang.String" itemvalue="Application.QuoteRestTemplateApp" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.VaultConfigApp-cloud-profile" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.VaultConfigApp" />
       </list>
     </recent_temporary>
   </component>
@@ -785,12 +861,12 @@
       <workItem from="1548607810073" duration="66000" />
       <workItem from="1548607931359" duration="532000" />
       <workItem from="1549593591468" duration="4319000" />
-      <workItem from="1551039317441" duration="38427000" />
+      <workItem from="1551039317441" duration="43323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64923000" />
+    <option name="totallyTimeSpent" value="69819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -815,10 +891,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5648464" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5648464" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31228667" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45221844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24659607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -849,17 +925,17 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6194539" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6211604" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43856657" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5648464" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31228667" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45221844" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24659607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -889,51 +965,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../sig-nsv-batch-processing/src/main/java/hello/BatchConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="85" column="1" lean-forward="false" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2189#2190#0" expanded="false" />
-            <element signature="e#2237#2238#0" expanded="false" />
-            <element signature="e#3165#3181#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../sig-nsv-async-method/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/vault/spring-vault-core/2.0.2.RELEASE/spring-vault-core-2.0.2.RELEASE.jar!/org/springframework/vault/client/SimpleVaultEndpointProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/vault/spring-vault-core/2.0.2.RELEASE/spring-vault-core-2.0.2.RELEASE.jar!/org/springframework/vault/client/VaultEndpoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE.jar!/org/springframework/util/LinkedMultiValueMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE.jar!/org/springframework/util/StringUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1308,14 +1339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/domain/ErrorResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1391,7 +1414,7 @@
         <state relative-caret-position="153">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1401,7 +1424,7 @@
         <state relative-caret-position="71">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1411,7 +1434,7 @@
         <state relative-caret-position="139">
           <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1432,18 +1455,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/RestApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1453,8 +1468,55 @@
         <state relative-caret-position="76">
           <caret line="192" column="24" lean-forward="false" selection-start-line="192" selection-start-column="24" selection-end-line="192" selection-end-column="24" />
           <folding>
-            <element signature="e#13192#13193#0" expanded="true" />
-            <element signature="e#13245#13246#0" expanded="true" />
+            <marker date="1551558740731" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1551558740731" expanded="false" signature="159:1386" ph="..." />
+            <marker date="1551558740731" expanded="true" signature="2202:2778" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="3267:3802" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="3886:4172" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="4229:4515" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="4609:4782" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="4898:5313" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="5417:5600" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="5726:6130" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="6190:6550" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="6642:6795" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="6896:7301" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="7403:7566" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="7687:8076" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="8182:8381" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="8300:8373" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="8499:8815" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="8922:9300" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="9391:9760" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="9841:10198" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="10284:10605" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="10701:10886" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="11001:11428" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="11534:11729" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="11842:12240" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="12311:12705" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="12770:13158" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="13191:13202" ph=" { " />
+            <marker date="1551558740731" expanded="true" signature="13240:13246" ph=" }" />
+            <marker date="1551558740731" expanded="true" signature="13320:13419" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="13485:14634" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="14704:15570" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="15682:16369" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="16431:17068" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="17124:17300" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="17379:17559" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="17572:17969" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="18095:18237" ph="{...}" />
+            <marker date="1551558740731" expanded="false" signature="18163:18178" ph=" { " />
+            <marker date="1551558740731" expanded="false" signature="18221:18231" ph=" }" />
+            <marker date="1551558740731" expanded="true" signature="18360:18490" ph="{...}" />
+            <marker date="1551558740731" expanded="false" signature="18422:18437" ph=" { " />
+            <marker date="1551558740731" expanded="false" signature="18474:18484" ph=" }" />
+            <marker date="1551558740731" expanded="true" signature="18614:19490" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="18765:18854" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="18920:19036" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="19106:19484" ph="{...}" />
+            <marker date="1551558740731" expanded="true" signature="19539:19601" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1473,11 +1535,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/SpringBootDemoApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nsv/jsmbaba/controller/GreetingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="e#589#590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="75" column="140" lean-forward="false" selection-start-line="75" selection-start-column="140" selection-end-line="75" selection-end-column="140" />
+        <state relative-caret-position="160">
+          <caret line="99" column="17" lean-forward="false" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nsv/jsmbaba/controller/GreetingControllerITTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nsv/jsmbaba/controller/GreetingControllerManagementITTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1273#1302#1" expanded="true" />
+            <element signature="e#1636#1665#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nsv/jsmbaba/controller/GreetingControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
