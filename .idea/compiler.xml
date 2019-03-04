@@ -14,6 +14,7 @@
         <module name="sig-nsv-accessing-vault" />
         <module name="sig-nsv-async-method" />
         <module name="sig-nsv-rest-service" />
+        <module name="sig-nsv-spring-integration" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -26,6 +27,7 @@
       <module name="sig-nsv-accessing-vault" target="1.8" />
       <module name="sig-nsv-async-method" target="1.8" />
       <module name="sig-nsv-rest-service" target="1.8" />
+      <module name="sig-nsv-spring-integration" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

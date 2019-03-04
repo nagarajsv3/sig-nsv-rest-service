@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/../sig-nsv-springboot-docker/pom.xml" />
         <option value="$PROJECT_DIR$/../sig-nsv-batch-processing/pom.xml" />
         <option value="$PROJECT_DIR$/../sig-nsv-accessing-vault/pom.xml" />
+        <option value="$PROJECT_DIR$/../sig-nsv-spring-integration/pom.xml" />
       </list>
     </option>
   </component>

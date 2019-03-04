@@ -63,3 +63,14 @@ import javax.validation.constraints.Size;
 ********Custom Exception Handler********
 Create a ControllerAdvice for the Controller
 Throw exception in the Controller. ControllerAdvice catches and responds to request
+
+
+***********Consuming Rest Service using RestTemplate*************
+1. @JsonIgnoreProperties from the Jackson JSON processing library to indicate that any properties not bound
+in this type should be ignored.
+2. In order for you to directly bind your data to your custom types, you need to specify the variable name
+exact same as the key in the JSON Document returned from the API. In case your variable name and key in JSON doc
+are not matching, you need to use @JsonProperty annotation to specify the exact key of JSON document.
+3. Jackson JSON processing library is in the classpath, RestTemplate will use it (via a message converter)
+to convert the incoming JSON data into a Quote object
+4. standard system properties http.proxyHost and http.proxyPort to values appropriate for your environment if you are behind corporate proxy

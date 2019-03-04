@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/sig-nsv-accessing-vault/sig-nsv-accessing-vault.iml" filepath="$PROJECT_DIR$/sig-nsv-accessing-vault/sig-nsv-accessing-vault.iml" />
       <module fileurl="file://$PROJECT_DIR$/../sig-nsv-async-method/sig-nsv-async-method.iml" filepath="$PROJECT_DIR$/../sig-nsv-async-method/sig-nsv-async-method.iml" />
       <module fileurl="file://$PROJECT_DIR$/sig-nsv-rest-service.iml" filepath="$PROJECT_DIR$/sig-nsv-rest-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sig-nsv-spring-integration/sig-nsv-spring-integration.iml" filepath="$PROJECT_DIR$/../sig-nsv-spring-integration/sig-nsv-spring-integration.iml" />
     </modules>
   </component>
 </project>
