@@ -77,6 +77,10 @@ to convert the incoming JSON data into a Quote object
 5. applicationContext.getBeanDefinitionNames() gives all the bean names provided by spring boot.
 
 ********Spring Boot Testing***********
+https://www.baeldung.com/spring-boot-testing
+https://blog.zenika.com/2013/01/15/spring-mvc-test-framework/
+https://www.petrikainulainen.net/programming/spring-framework/unit-testing-of-spring-mvc-controllers-rest-api/
+
 1. Refer GreetingControllerTest
 The MockMvc comes from Spring Test and allows you, via a set of convenient builder classes,
 to send HTTP requests into the DispatcherServlet and make assertions about the result.
