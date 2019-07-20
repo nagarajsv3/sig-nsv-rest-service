@@ -107,3 +107,8 @@ management.server.address: 127.0.0.1
 
 Refer GreetingControllerManagementITTest for test
 
+*********Spring Boot Logging*********
+Spring Boot provides Logback
+logging.level.org.springframework.*=INFO
+logging.level.<yourpackage>=INFO
+logging.file=logs/filename.log
